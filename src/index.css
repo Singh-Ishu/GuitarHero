@@ -5,5 +5,18 @@
 }
 
 #root {
-    --background-color: #f0f0f0;
+    --background-color: #7e5a82;
+    --accent-color-light: #d9a8c4;
+    --accent-color-dark: #5c3756;
+    --text-color: #f0e6f6;
+}
+
+body {
+    background: #ffffff;
+    background-image: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(126, 90, 130, 1) 50%,
+        rgba(92, 55, 86, 1) 100%
+    );
 }
